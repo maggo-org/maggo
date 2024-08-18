@@ -1,3 +1,3 @@
-import Wizard from "./src/wizard";
+import Maggo from './src/maggo'
 
-export default Wizard;
+export default Maggo;
