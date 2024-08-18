@@ -1,0 +1,21 @@
+{
+  "name": "maggo",
+  "version": "1.0.0",
+    "repository": {
+    "type": "git",
+    "url": "https://github.com/tu_usuario/tu_repositorio.git"
+  },
+  "description": "A versatile HTTP client library for simplifying API requests and handling responses with ease. Supports GET, POST, PUT, and DELETE methods.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "Alan G. Alonso",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}
