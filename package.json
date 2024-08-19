@@ -11,7 +11,11 @@
     "promise"
   ],
   "description": "A versatile HTTP client library for simplifying API requests and handling responses with ease. Supports GET, POST, PUT, and DELETE methods.",
-  "main": "dist/index.js",
+  "main": "./dist/index.js",
+  "exports": {
+    ".": "./dist/index.js",
+    "./request": "./dist/request/index.js"
+  },
   "scripts": {
     "build": "tsc"
   },
