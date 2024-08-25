@@ -1,5 +1,5 @@
-//// @ts-ignore
-//import fetch from "./fetchWrapper.js";
+// @ts-ignore
+import fetch from "./fetchWrapper.js";
 
 // TODO : MEJORAR LOGICA DE CUANDO LA RESPUESTA ES UN APPLICATION/JSON
 // TODO : MEJORAR LOGICA DE ERROR / API

@@ -1,6 +1,6 @@
 {
   "name": "maggo",
-  "version": "1.0.2",
+  "version": "1.0.8",
   "repository": {
     "type": "git",
     "url": "https://github.com/maggo-org/maggo"
@@ -11,10 +11,10 @@
     "promise"
   ],
   "description": "A versatile HTTP client library for simplifying API requests and handling responses with ease. Supports GET, POST, PUT, and DELETE methods.",
-  "main": "./dist/index.js",
+  "main": "./src/index.ts",
   "exports": {
-    ".": "./dist/index.js",
-    "./request": "./dist/request/index.js"
+    ".": "./src/index.ts",
+    "./request": "./src/request/index.js"
   },
   "scripts": {
     "build": "tsc"
